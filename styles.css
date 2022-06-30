@@ -16,9 +16,8 @@ body{
 }
 
 .container{
-    /* max-width: 60%;` */
     width:60%;
-    min-width: 900px;
+    min-width: 800px;
     margin: auto auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -100,7 +99,7 @@ button{
 
 @media (max-width: 480px) {
   .container{
-    min-width: auto;
+    min-width: 300px;
     width: 300px;
     display: grid;
     grid-template-columns: 1fr;
